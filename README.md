@@ -11,3 +11,8 @@ run program by:
 make -f makefile
 
 ./sim04 config1.cnf
+
+
+Note: To change the CPU Scheduling, go into the config1.cnf file.
+
+In CPU Scheduling Code, change FCFS-P to SRTF-P (Shortest Remaining Time First Preemptive) or to RR-P (Round Robin Preemptive).
